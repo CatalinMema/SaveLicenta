@@ -1,0 +1,46 @@
+.top{
+    color: white;
+    display:flex;
+    margin-top:20px;
+}
+
+ 
+.numeGen:hover{
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
+.videoFilm{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+
+  .videoFilm iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  @media (max-width:700px){
+      .top{
+          display: block;
+          flex-direction: column;
+         
+      }
+      
+  }
+
+  .cartonPers{
+    height: 100%;
+    margin:0 auto;
+    text-align: center;
+    color: white;
+   
+}
+
+.imaginiFilm{
+ border: 2px solid white;
+}

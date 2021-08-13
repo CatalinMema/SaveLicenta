@@ -1,0 +1,44 @@
+.toataPaginaImagini{
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 60px;
+  color: white;
+  border-radius: 10px;
+  box-shadow:  0 1px 5px rgba(255, 255, 255, 0.12),0 1px 2px rgba(255, 255, 255, 0.24);
+
+}
+
+.toateImaginileSerial {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    
+  }
+  .SerialPoster{
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .SerialPoster > img{
+    width: 10%;
+  }
+  @media(max-width:1250px){
+    .toateImaginileSerial {
+       
+        grid-template-columns: repeat(2,1fr);
+      
+        
+      }
+}
+
+@media(max-width:950px){
+    .toateImaginileSerial {
+       
+        grid-template-columns: repeat(1,1fr);
+      
+        
+      }
+}

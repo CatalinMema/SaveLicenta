@@ -1,0 +1,47 @@
+.footer{
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   background: red;
+}
+.tmdb{
+    padding-top: 30px;
+    color:white;
+    text-align: center;
+   
+}
+.fast1{
+    padding-top: 20px;
+    border-top: 2px solid white;
+    text-align: center;
+    color: white;
+  
+
+}
+.fast2{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.fast1 > a{ 
+    margin-right: 50px; 
+}
+.fast2 > a{ 
+    
+    margin-right: 50px;
+
+
+    
+}
+.fast1 > a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.fast2 > a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.tmdb > img{
+    height: 40px;
+    width:50px;
+}

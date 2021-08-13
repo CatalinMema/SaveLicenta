@@ -1,0 +1,99 @@
+.persoana{
+
+ 
+    display: flex;
+
+  }
+  
+  .persoana .stanga{
+    width: 25%;
+    background: transparent;
+    
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+  }
+   .imagPersoane{
+      border:5px solid white;
+      border-radius: 5px;
+      margin-bottom: 10px;
+  }
+  
+ 
+  .persoana .dreapta{
+    width: 75%;
+    background: transparent;
+    padding: 30px 25px;
+   border:4px solid #141414;
+   color:white;
+  }
+  
+.info,
+  .persoana .dreapta .projects{
+    margin-bottom: 25px;
+  }
+  
+  .persoana .dreapta .info h3,
+  .persoana .dreapta .projects h3{
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #e0e0e0;
+      color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+ 
+  
+  
+  .persoana .social_media ul{
+    display: flex;
+  }
+  
+  
+ 
+
+  .sageata{
+      font-size:25;
+      cursor: pointer;
+      background-color: transparent;
+  }
+  .sageata:hover{
+      transform:scale(1.5);
+  }
+  .filme {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    
+  }
+
+  .linkFilm{
+    color: white;
+}
+.linkFilm:hover{
+    color: #F2AA4cFF;
+    text-decoration: none;
+}
+@media (max-width:700px){
+  .persoana{
+      display: block;
+  
+     
+  }
+  .persoana .stanga{
+    width: 100%;
+    
+  }
+  .persoana .dreapta{
+    width: 100%;
+    
+  }
+  
+}
+.imgRolFilme{
+  width: 50px;
+}

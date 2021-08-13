@@ -1,0 +1,6 @@
+.allElements{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-gap: 20px;
+}

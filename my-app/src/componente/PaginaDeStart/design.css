@@ -1,0 +1,90 @@
+.FirstSection{
+  width:fit-content;
+  height: fit-content;
+ 
+}
+
+.forh2 >h2{
+  color: white;
+  margin-top: 40px;
+}
+.imgbjPoza{
+  width: 100%;
+  border: 2px solid white;
+ 
+}
+
+.imgPoster{
+  width: 15%;
+  border: 2px solid white;
+}
+.trendingWeek{
+  margin-top: 60px;
+  color: white;
+}
+.imgPoster2{
+  width: 15%;
+  border: 2px solid white;
+  margin-top: -135px;
+ 
+
+
+}
+.PlayButton{
+position: relative;
+cursor: pointer;
+color:white;
+outline: none;
+border:none;
+background-color: rgba(51,51,51,0.51);
+}
+
+.PlayButton:hover{
+  color:black;
+  background-color: white;
+  transition: all 0.2s;
+}
+.watchlistFrom {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+ .watchlistFrom {
+   color: white;
+ }
+ .textWatch:hover + .ArrowWatchlist{
+   color:#F2AA4cFF;
+  transform: scale(1.08);
+  cursor: pointer;
+  background-color: transparent;
+ }
+ 
+.titlu{
+  margin-left:150px;
+}
+
+@media(max-width:1150px){
+  .trendingWeek{
+    margin-top: 80px;
+  }
+  .titlu{
+    margin-left:100px;
+  }
+  
+.FirstSection{
+  max-height: 200px;
+  transition: all 2s ease-in;
+}
+}
+
+@media(max-width:1250px){
+  
+  .sliderFilme .imgPoster{display: none;}
+  .FirstSection{
+    max-height: 300px;
+    transition: all 2s ease-in;
+  }
+}

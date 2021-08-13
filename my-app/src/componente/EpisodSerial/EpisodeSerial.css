@@ -1,0 +1,76 @@
+.EpisodSerial{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 10px;
+    box-shadow:  0 1px 5px rgba(255, 255, 255, 0.12),0 1px 2px rgba(255, 255, 255, 0.24);
+
+}
+.btnEpisodes{
+     display: inline;
+}
+.btn_episoade1{
+    text-align: center;
+    width:20%;
+    border-radius: 15px;
+    background: #182336;
+    color:white;
+    outline: none;
+    border:none;
+    margin-right: 20px;
+    float: inline-start;
+}
+.btn_episoade2{
+    text-align: center;
+    width:20%;
+    border-radius: 15px;
+    background: #182336;
+    color:white;
+    outline: none;
+    border:none;
+    float: right;
+    
+    
+}
+.btn_episoade1:hover{
+    transform: scale(1.08);
+    transition: all   ease-in;
+}
+.btn_episoade2:hover{
+    transform: scale(1.08);
+    transition: all   ease-in;
+}
+.btn_episoade2:disabled{
+    pointer-events: none;
+    opacity: 1;
+    color:#F2AA4cFF;
+     background-color: #000000;
+}
+.btnFav{
+    background-color: transparent;
+    outline: none;
+    border:none;
+    color: white;
+    float: right;
+}
+
+.btnFav:disabled{
+    pointer-events: none;
+    color:#F2AA4cFF;
+}
+ 
+.btnEpisoade{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color:white;
+    font-size: 20px;
+    
+}
+@media (max-width:1080px){
+    .EpisodSerial{
+        margin-top: 110px;
+    }
+    
+}

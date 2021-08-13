@@ -1,0 +1,61 @@
+.trendingPart{
+    width:fit-content;
+    height: fit-content;
+   
+  }
+  
+ 
+  .poza_itemposterTrending{
+    object-fit: cover;
+    width: 100%;
+    border: 2px solid white;
+   
+  }
+
+  .img_posterTrending{
+    width: 15%;
+    border: 2px solid white;
+    margin-top: -165px;
+  
+  }
+
+  .titlu_Trending{
+    margin-left:140px;
+    
+  }
+.NumeSiButoane{
+  margin-left:140px;
+}
+  .loadingLine{
+    display: grid;
+    place-items: center;
+    height: 10vh;
+    width: 100%;
+  }
+  
+  .continutLoadingLine{
+    text-align: center;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media(max-width:1250px){
+  
+    .titlu_Trending{
+      margin-left:40px;
+    }
+}
+  @media(max-width:1250px){
+  
+    .trendingPart .img_posterTrending{display: none;}
+    .titlu_Trending > h2 {
+      font-size: 20px;
+      margin-left: -20px;
+    }
+   .NumeSiButoane{
+     margin-top: -50px;
+     margin-left: 20px;
+   }
+  }

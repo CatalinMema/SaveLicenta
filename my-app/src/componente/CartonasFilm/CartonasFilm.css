@@ -1,0 +1,98 @@
+.cartonFilm{
+    width: 150px;
+    height: 320px;
+    background: rgb(32, 30, 30);
+  
+    margin:0 auto;
+}
+.butoaneCartonasFilm{
+    display: flex;
+}
+.cartonFilm .imgposterFilm{
+    position: relative;
+    
+}
+
+
+.imgposterFilm > img{
+    width: 100%;
+    height: 220px;
+     
+}
+.imgposterFilm > img:hover{
+    cursor: pointer;
+}
+
+ 
+.cartonFilm:hover .detaliiFilm{
+    bottom: 0;
+    transition: 0.55s ease-in;
+   
+}
+.evaluare{
+    background-color: rgb(32, 30, 30);
+    
+}
+
+.detaliiFilm > h2{
+    color: white;
+    background-color: rgb(32, 30, 30);
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+
+}
+
+.evaluare{
+    position: relative;
+    padding: 5px 0;
+}
+
+.butoaneCartonasFilm > .btnWatchFilm{
+    text-align: center;
+    width:100%;
+    border-radius:5px;
+    background: rgb(32, 30, 30);
+    color:white;
+    outline: none;
+    border:none;
+}
+.btnWatchFilm:hover {
+    background: white;
+    color:black;
+}
+.iconFilm{
+    background-color: transparent;
+}
+
+.btnWatchFilm:hover > .iconFilm{
+    background: white;
+    color:black;
+}
+
+.btnWatchFilm:disabled{
+    pointer-events: none;
+    opacity: 0.5;
+    color:#F2AA4cFF;
+     
+}
+
+.loadingCartonasFilm{
+    display: grid;
+    place-items: center;
+    height: 20vh;
+    width: 50%;
+    background-color: transparent;
+  }
+  
+  .continutLoadingCartonasFilm{
+    text-align: center;
+    padding-left: 70px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+ 

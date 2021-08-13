@@ -1,0 +1,20 @@
+.app_container{
+  display: flex;
+  
+}
+
+.loadingApp{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.continutLoadingApp{
+  text-align: center;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

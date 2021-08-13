@@ -1,0 +1,50 @@
+.cartonActor{
+    position: relative;
+    text-align: center;
+}
+.actorImagine{
+  width: 180px;
+  height: 280px;
+    margin:0 auto;
+    border-radius: 20%;
+    border-color: #363635;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.actorImagine:hover{
+    cursor: pointer;
+}
+
+.cartonActor .afisare_btnAddActor {
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 3px;
+  opacity: 0;
+  transition: all 0.3s ease;
+    
+  }
+
+  .cartonActor:hover .afisare_btnAddActor {
+    opacity: 1;
+  }
+
+  .addToActors{
+    color: #fefefe;
+    background-color: transparent;
+    border: none;
+    transition: all 0.3s ease;
+    font-size: 1.25rem;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .addToActors:disabled{
+    pointer-events: none;
+    opacity: 0.5;
+    color:#F2AA4cFF;
+     
+}

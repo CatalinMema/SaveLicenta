@@ -1,0 +1,82 @@
+.cartonSerial{
+    width: 150px;
+    height: 320px;
+    background: rgb(32, 30, 30);
+     
+     margin:0 auto;
+}
+.butoaneCartonasSerial{
+    display: flex;
+}
+.cartonSerial .imgposterSerial{
+    position: relative;
+}
+
+.imgposterSerial > img{
+    width: 100%;
+    height: 220px;
+}
+
+.imgposterSerial > .imgNoSerial{
+    width: 100%;
+height: 220px;
+background-color: #dbdada;
+border-radius: 5px;
+margin-right: 15px;
+display: block;
+color: transparent;
+}
+
+.imgposterSerial > img:hover{
+    cursor: pointer;
+}
+
+ 
+.cartonSerial:hover .detaliiSerial{
+    bottom: 0;
+    transition: 0.55s ease-in;
+
+}
+
+.detaliiSerial > h2{
+    color: white;
+    background-color: rgb(32, 30, 30);
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+
+}
+
+.evaluare{
+    position: relative;
+    padding: 5px 0;
+}
+
+.btnWatchSerial{
+    text-align: center;
+    width:100%;
+    border-radius: 15px;
+    background: rgb(32, 30, 30);
+    color:white;
+    outline: none;
+    border:none;
+}
+.btnWatchSerial:hover{
+    background: white;
+    color:black;
+}
+
+.btnWatchSerial:disabled{
+    pointer-events: none;
+    opacity: 1;
+    color:#F2AA4cFF;
+     
+}
+.iconSerial{
+    background-color: transparent;
+}
+.btnWatchSerial:hover > .iconSerial{
+    background: white;
+    color:black;
+}
+ 

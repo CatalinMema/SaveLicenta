@@ -1,0 +1,80 @@
+.antet{
+    position: fixed;
+    display: flex;
+     z-index: 999;
+    width: 100%;
+    align-items: center;
+    background-color: #141414;
+    justify-content: space-evenly;
+    
+}
+.antet__meniu{
+    display: none;
+}
+.antet__meniu:hover{
+    cursor: pointer;
+}
+.antet__logo{
+    width: 30px;
+    height: 30px;
+}
+
+.searchBar{
+    opacity: 1;
+    border-radius: 6px;
+    background-color: #141414;
+    text-align: center;
+    display: flex;
+    padding: 0 50px;
+    color: gray;
+    border: 1px gray solid;
+}
+
+.searchBar  > input{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    min-width: 20vw;
+    outline: none;
+    color: white;
+}
+.btn_allMovies{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color:white;
+    font-size: 20px;
+    
+}
+.item{
+    background-color: red;
+}
+ 
+.dropMovies{
+    display: flex;
+    align-items: center;
+}
+@media (max-width:720px){
+    .antet{
+        padding: 1rem;
+        }
+        form{
+         flex:1;
+    }
+    .antet__meniu{
+        display: block;
+    }
+    .watchlist,.antet__logo{
+        display: none;
+    }
+    .dropMovies{
+        display: none;
+    }
+
+    .userPart > h5{
+        display: none;
+    }
+    .userPart > img{
+        display: none;
+    }
+}

@@ -1,0 +1,53 @@
+.cast{
+    display: flex;
+    flex-direction: column;
+}
+
+.actorImagineCast{
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.actor_caracter{
+    
+    color: white;
+    justify-content: space-between;
+}
+.toataPagina{
+    margin:0 auto;
+   width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.12),0 1px 2px rgba(255, 255, 255, 0.24);
+
+}
+.actor_caracter > h3{
+    margin-top: 10px;
+}
+.postFilm{
+    display: flex;
+    color: white;
+    margin-bottom: 50px;
+}
+ 
+.allActorsCastFilm{
+    display: block;
+}
+.actorCastFilm{
+    display: flex;
+    
+    align-items: center;
+     
+  
+}
+
+.actorCastFilm > img{
+    width: 50px;
+    margin-bottom: 6px;
+}
+
+.elementeCastFilm{
+    margin-left: 20px;
+    width: 450px;
+    text-align: left;
+     
+}

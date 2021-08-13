@@ -1,0 +1,100 @@
+.lateral{
+    margin-top: 50px;
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: fit-content;
+    padding-top: 28px;
+    color: white;
+    transition: transform 0.5s ease-in-out;
+     
+}
+
+.lateral > li{
+    display: flex;
+    align-items: center;
+    padding: 10px  ;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.lateral > .dropMoviesLateral{
+    display: none;
+}
+.lateral > li > span{
+    margin-left: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+.lateral > li > .link >span{
+    margin-left: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.lateral > hr{
+    background-color: white;
+ 
+}
+.btn_allMoviesLateral{
+    margin-left: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    
+}
+.lateral > li:hover{
+    color:#F2AA4cFF;
+}
+
+
+@media(max-width:1454px){
+.lateral{
+    width: 170px;
+}
+.lateral > li{
+    justify-content: left;
+
+}
+
+
+}
+
+@media(max-width:520px){
+    .lateral{
+        transform: translateX(-100%);
+        position: fixed;
+        z-index: 998;
+    }
+
+    .deschis{
+        transform: translateX(0);
+    }
+}
+@media (max-width:720px){
+    .lateral > .dropMoviesLateral{
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+
+.link{
+    color: white;
+}
+.link:hover{
+    color: #F2AA4cFF;
+    text-decoration: none;
+}
+
+.link{
+    color: white;
+}
+.link:hover{
+    color: #F2AA4cFF;
+    text-decoration: none;
+}

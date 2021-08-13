@@ -1,0 +1,79 @@
+.adminAntet{
+    display: flex;
+    width: 80%;
+    height: 40px;
+    align-items: center;
+    background-color: #141414;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.utilizatoriBoard{
+    margin: 30px auto;
+    text-align: left;
+    background-color: white;
+    border-radius: 20px;
+     
+}
+
+.backWhite{
+    background-color: white;
+    color:black;
+}
+ 
+.backWhite > p{
+    background-color: white;
+    color:black;
+}
+
+.usersH3{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.butonLogOut{
+    
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width:1000px){
+    .LastS{
+        display: none;
+         
+       
+    }
+    .allActors2 {
+     
+        grid-template-columns: repeat(4,1fr);
+    
+        
+      }
+}
+
+
+
+.allActors2{
+    margin-top: 20px;
+    width: 100%; 
+    text-align: center;
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
+}
+@media (max-width:800px){
+    .LastN{
+        display: none;
+         
+       
+    }
+    .backWhite > p{
+        margin-left: -20px;
+    }
+    .allActors2 {
+     
+        grid-template-columns: repeat(3,1fr);
+
+     
+      }
+}

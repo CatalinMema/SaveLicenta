@@ -1,0 +1,49 @@
+.Sezoane {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 60px;
+    color: white;
+    border-radius: 10px;
+    box-shadow:  0 1px 5px rgba(255, 255, 255, 0.12),0 1px 2px rgba(255, 255, 255, 0.24);
+
+  }
+
+  .episoade > img{
+    width: 300px;
+    height: 200px;
+  }
+  .episoade{
+    display: flex;
+    color: white;
+    background-color: transparent;
+    width: fit-content;
+  }
+  .posterDesc{
+    display: flex;
+  }
+  
+  .posterDesc > h6{
+    margin-left: 20px;
+    flex: 0.9;
+  }
+
+  @media(max-width:1254px){
+    .episoade{
+        display: inline-block;
+    }
+    .posterDesc{
+      display: block;
+    }
+    }
+.faraBackground{
+  background-color: transparent;
+}
+.episodeTitlu{
+  display: block;
+}
+    .episodeTitlu > h2:hover {
+      cursor: pointer;
+    }

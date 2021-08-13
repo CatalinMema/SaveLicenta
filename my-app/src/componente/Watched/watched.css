@@ -1,0 +1,129 @@
+.paginaWatched {
+  margin-top: 5vh;
+  height: fit-content;
+  box-shadow:  0 1px 5px rgba(255, 255, 255, 0.12),0 1px 2px rgba(255, 255, 255, 0.24);
+  padding: 10px;
+  }
+  .loc {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  .paginaWatched .titlu_nrTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .paginaWatched .titlu_watch {
+    color: white;
+    margin: 0;
+  }
+  
+  .nr_elemente {
+    display: block;
+    background-color: white;
+    padding: 5px 15px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 999px;
+    color: black;
+  }
+
+  .paginaWatched .niciun_element {
+    color: #c4c4c4;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .cartonas_itemWatched {
+    color: white;
+    width: 80%;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    border: 0;
+    display: block;
+   
+  }
+  .titluWatched{
+    width: 80%;
+  height: 50px;
+  border-left: 1px solid rgba(255, 255, 255, 0.24);
+  box-shadow:  0 1px 5px rgba(255, 255, 255, 0.12),0 1px 2px rgba(255, 255, 255, 0.24);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+  }
+  .cartonas_itemWatched img {
+    width: 80%;
+    display: block;
+    border:2px solid white;
+  }
+  
+
+  
+  .grid_elemente {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    
+  }
+
+  .ctrl-btnWatched {
+    color: #fefefe;
+    background-color: transparent;
+    border: none;
+    transition: all 0.3s ease;
+    font-size: 1.25rem;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  .ctrl-btnWatched:hover {
+    color: gray;
+    cursor: pointer;
+  }
+
+  .cartonas_itemWatched .afisare_butnWatched {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+     background: rgba(0, 0, 0, 0.8);
+     border-radius: 5px;
+     padding: 3px;
+     opacity: 0;
+     transition: all 0.3s ease;
+    
+  }
+
+  .cartonas_itemWatched:hover .afisare_butnWatched {
+    opacity: 1;
+  }
+
+  @media(max-width:1150px){
+    .cartonas_itemWatched {
+     
+      width: 100%;
+     
+    }
+    
+    .cartonas_itemWatched img {
+      width: 100%;
+      
+    }
+    .grid_elemente {
+     
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 50px;
+      
+    }
+  }
+
+  @media (max-width:720px){
+    .paginaWatched {
+      margin-top: 7vh;
+       
+      }
+}
